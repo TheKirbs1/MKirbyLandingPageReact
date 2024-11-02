@@ -4,14 +4,13 @@ import BodyContainer from './BodyContainer';
 import Footer from './Footer';
 
 const LandingPage = () => {
-	return (
-	<>
-   
-    <Navbar />
-    <BodyContainer />
-    <Footer />
-	</>
-	);
-};
+    return (
+        <>
+        <Navbar />
+        <BodyContainer />
+        <Footer/>
+        </>
+    );
+}
 
 export default LandingPage;
